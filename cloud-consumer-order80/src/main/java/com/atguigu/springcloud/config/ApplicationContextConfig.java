@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class ApplicationContextConfig {
     @Bean
-    @LoadBalanced //这个是在controller配置eureka的服务名代替具体的域名之后启用负载均衡避免报错的
+    //@LoadBalanced //这个是在controller配置eureka的服务名代替具体的域名之后启用负载均衡避免报错的，注意在启用自定义的ribbon的轮询算法的时候要注释掉
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
