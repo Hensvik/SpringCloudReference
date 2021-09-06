@@ -18,7 +18,7 @@ public class PaymentService {
     })
     public String PaymentInfo_TimeOut(Integer id){
         int timeNumber = 3000;
-        int age = 10/0;
+        //int age = 10/0;
         //这一部分放开会报错(已解决，原因为时间的计时单位为ms，错误)
         try {
             TimeUnit.SECONDS.sleep(3000);
