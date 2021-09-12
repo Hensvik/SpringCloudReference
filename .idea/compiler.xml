@@ -17,8 +17,12 @@
         <module name="cloud-eureka-server7002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-consumerzk-order80" />
+        <module name="cloud-config-center-3344" />
+        <module name="cloud-provider-paymennt8004" />
         <module name="cloud-gateway-gateway9527" />
+        <module name="cloud-consumer-feig-hysrix-order80" />
         <module name="cloud-consumer-order80" />
+        <module name="cloud-config-client-3366" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
